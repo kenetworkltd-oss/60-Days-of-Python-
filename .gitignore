@@ -1,0 +1,19 @@
+# Ignore local virtual environments
+venv/
+.venv/
+ENV/
+
+# Ignore sensitive local data and keys
+key.key
+passwords.txt
+
+# Ignore Python runtime clutter
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Ignore local OS metadata
+.DS_Store
+Thumbs.db
